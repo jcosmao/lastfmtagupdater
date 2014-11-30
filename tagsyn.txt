@@ -1,0 +1,800 @@
+# The expected format is:
+# original token(tab)replacement token[,replacement token]...
+#
+# e.g.
+# brit pop	britpop
+# rnb    rhythm and blues, r&b
+# Indie Pop	Indie, Indie Pop
+#
+# Duplicate tags are automatically dealt with. The original token is not case 
+# sensitive, but case is preserved for the replacement value(s).
+# 
+# If you want to block a tag, specify its replacement as '-NONE-'. The tag will
+# then be removed from the tagstream. 
+
+
+# The following values were chosen based almost entirely on subjective personal preference and based
+# on what came up fetching tags from my library. I make no attempt at defending the choices, so please 
+# feel free to edit this to suit your own tastes. I generally chose the name-form Wikipedia treated as 
+# canonical. If there's a better, non-subjective choice for these (or additions), please let me know.
+
+'10s	10s
+'20s	20s
+'30s	30s
+'40s	40s
+'50s	50s
+'60s	60s
+'70s	70s
+'80s	80s
+'90s	90s
+'00s	00s
+
+10's	10s
+20's	20s
+30's	30s
+40's	40s
+50's	50s
+60's	60s
+70's	70s
+80's	80s
+90's	90s
+00's	00s
+	
+1910s	10s
+1920s	20s
+1930s	30s
+1940s	40s
+1950s	50s
+1960s	60s
+1970s	70s
+1980s	80s
+1990s	90s
+2000s	00s
+	
+1910's	10s
+1920's	20s
+1930's	30s
+1940's	40s
+1950's	50s
+1960's	60s
+1970's	70s
+1980's	80s
+1990's	90s
+2000's	00s
+
+twenties	20s
+thirties	30s
+forties	40s
+fifties	50s
+sixties	60s
+seventies	70s
+eighties	80s
+nineties	90s
+
+1950	50s
+1951	50s
+1952	50s
+1953	50s
+1954	50s
+1955	50s
+1956	50s
+1957	50s
+1958	50s
+1959	50s
+
+1960	60s
+1961	60s
+1962	60s
+1963	60s
+1964	60s
+1965	60s
+1966	60s
+1967	60s
+1968	60s
+1969	60s
+
+1970	70s
+1971	70s
+1972	70s
+1973	70s
+1974	70s
+1975	70s
+1976	70s
+1977	70s
+1978	70s
+1979	70s
+
+1980	80s
+1981	80s
+1982	80s
+1983	80s
+1984	80s
+1985	80s
+1986	80s
+1987	80s
+1988	80s
+1989	80s
+
+1990	90s
+1991	90s
+1992	90s
+1993	90s
+1994	90s
+1995	90s
+1996	90s
+1997	90s
+1998	90s
+1999	90s
+
+2000	00s
+2001	00s
+2002	00s
+2003	00s
+2004	00s
+2005	00s
+2006	00s
+2007	00s
+2008	00s
+2009	00s
+
+2010	10s
+
+007	James Bond	
+60s gold	60s
+accoustic	Acoustic
+acoustic rock	Acoustic Rock, Acoustic, Rock
+acousticindiefolk	Acoustic, Indie, Folk
+africa	African
+afro	African, World
+afropunk	Afro-Punk
+afro-punk	Afro-Punk
+alt country	Alternative Country
+alt-country	Alternative Country
+alt folk	Alternative Folk, Folk
+altfolk	Alternative Folk, Folk
+alt-folk	Alternative Folk, Folk
+alternative hip-hop	Alternative Hip Hop
+alt pop	Alternative Pop, Pop
+altpop	Alternative Pop, Pop
+alt-pop	Alternative Pop, Pop
+adult alt	Alternative Rock, Rock
+alt rock	Alternative Rock, Rock
+alternate rock	Alternative Rock, Rock
+alternative	Alternative Rock, Rock
+alternative rock	Alternative Rock, Rock
+alternative-rock	Alternative Rock, Rock
+alternativo	Alternative Rock, Rock
+ambient & trance	Ambient, Trance
+ambient trance	Ambient, Trance
+musica americana	American
+united states	American
+us	American
+usa	American
+americana	Americana, Folk
+antifolk	Anti-Folk
+arabic	Arabic, Middle Eastern, World
+art-rock	Art Rock, Rock
+oriental	Asian
+atlanta	Atlanta, American
+atmosphere	Atmospheric
+austin	Austin, American
+aussie	Australian
+australia	Australian
+avantgarde	Avant-garde
+basically bass	Bass
+belgium	Belgian
+belgian electronics	Belgian, Electronica
+berlin	Berlin, German
+bhangra	Bhangra, Indian
+black metal	Black Metal, Metal
+blues rock	Blues-rock, Rock, Blues
+blues-rock	Blues-rock, Rock, Blues
+bossa nova	Bossa Nova, Latin
+brazillian	Brazilian, Latin
+breackcore	Breakcore
+england	British
+uk	British
+united kingdom	British
+british invasion	British Invasion, British
+brit rock	British, Rock
+brit pop	Britpop, British
+brit-pop	Britpop, British
+britpop indie	Britpop, Indie, British
+brooklyn	Brooklyn, New York, American
+california	California, West Coast, American
+canada	Canadian
+chicago blues	Chicago Blues, Blues
+chicago	Chicago, American
+chill	Chill-out
+chill out	Chill-out
+chilled	Chill-out
+chillout	Chill-out
+china	Chinese
+chinese classical	Chinese Classical, Chinese
+xmas	Christmas
+christmas classics	Christmas
+christmas rock	Christmas
+christmas pop	Christmas
+christmas music	Christmas
+x-mas	Christmas
+classic rock	Classic Rock, Rock
+cold wave	Coldwave, Industrial Rock, Industrial
+collab	Collaborations
+collaboration	Collaborations
+collabs	Collaborations
+college rock	College Rock, Rock
+country folk indie	Country, Folk, Indie, Indie Folk
+cover	Covers
+cover songs	Covers
+c pop	C-pop, Chinese
+chinese pop	C-pop, Chinese
+cpop	C-pop, Chinese
+c-pop	C-pop, Chinese
+c rock	C-rock, Chinese, Rock
+c-rock	C-rock, Chinese, Rock
+cross over	Crossover
+cross-over	Crossover
+cuba	Cuban, Latin
+cuban	Cuban, Latin
+son cubano	Cuban, Latin
+dallas	Dallas, American
+dance hall	Dancehall
+dance-hall	Dancehall
+dance punk	Dance-punk
+dancepunk	Dance-punk
+disco punk	Dance-punk
+discopunk	Dance-punk
+disco-punk	Dance-punk
+dance rock	Dance-Rock, Rock
+dance-rock	Dance-Rock, Rock
+darkness	Dark
+death	Dark
+dark ambient	Dark Ambient, Ambient, Dark
+dark cabaret	Dark Cabaret, Cabaret, Dark
+dark wave	Dark Wave, Dark
+darknew wave	Dark Wave, Dark
+darkwave	Dark Wave, Dark
+dark-wave	Dark Wave, Dark
+deep house	Deep House, House
+delta blues	Delta Blues, Blues
+detroit	Detroit, American
+dream	Dream Pop
+dreampop	Dream Pop
+dreamy	Dream Pop
+road trip	Driving
+drum bass	Drum & Bass
+dnb	Drum & Bass 
+drum and bass	Drum & Bass 
+drum n bass	Drum & Bass 
+drum'n'bass	Drum & Bass 
+drum-n-bass	Drum & Bass 
+percussion	Drums
+duo	Duets
+edinburgh	Edinburgh, Scottish
+electro clash	Electroclash
+electro-clash	Electroclash
+elektroklash	Electroclash
+ebm	Electronic Body Music
+electronic-world	Electronic, World
+electro pop	Electropop
+electro-pop	Electropop
+euro dance	Eurodance
+euro-dance	Eurodance
+eksperimental rock	Experimental Rock, Rock
+experimental rock	Experimental Rock, Rock
+female	Female Vocalist
+female vocal	Female Vocalist
+female vocalists	Female Vocalist
+female vocals	Female Vocalist
+female voice	Female Vocalist
+female voices	Female Vocalist
+femalevocalists	Female Vocalist
+flamenco	Flamenco, Latin
+florida	Florida, American
+folk rock	Folk Rock, Rock, Folk
+folkrock	Folk Rock, Rock, Folk
+folk-rock	Folk Rock, Rock, Folk
+france	French
+terrifying frenchness	French
+aint it funky	Funk
+humor	Funny
+humour	Funny
+lol	Funny
+gangsta rap	Gangsta Rap, Rap
+garage psych	Garage Psychedelic, Psychedelic
+deutsche	German
+g funk	G-funk
+gangsta funk	G-funk
+gfunk	G-funk
+chick rock	Girl Group
+girl groups	Girl Group
+glam	Glam Rock, Rock
+glam rock	Glam Rock, Rock
+glasgow	Glasgow, Scottish
+glitch pop	Glitchpop
+glitch-pop	Glitchpop
+doom metal	Gothic Metal, Metal
+gothic metal	Gothic Metal, Metal
+batcave	Gothic Rock, Rock
+deathrock	Gothic Rock, Rock
+goth	Gothic Rock, Rock
+goth rock	Gothic Rock, Rock
+gothic	Gothic Rock, Rock
+groovy	Groove
+groove metal	Groove, Metal
+gypsy punk	Gypsy Punk, Punk Rock
+hard rock	Hard Rock, Rock
+hardcore punk	Hardcore Punk, Punk Rock
+hiphop	Hip hop
+hip-hop	Hip Hop
+rap hip-hop	Hip hop, Rap
+history	Historical
+horns rhythms voices	Horns, Vocals
+hindi	Indian
+indian classical	Indian Classical, Indian
+india	Indian, World
+indi	Indie
+indie08	Indie
+playful indie yolala	Indie
+indi pop	Indie Pop, Indie
+indiepop	Indie Pop, Indie
+indie-pop	Indie Pop, Indie
+indi-pop	Indie Pop, Indie
+indi rock	Indie Rock, Indie, Rock
+indierock	Indie Rock, Indie, Rock
+indie - us	Indie, American
+indie - uk	Indie, British
+indi folk	Indie, Indie Folk, Folk
+indie-folk	Indie, Indie Folk, Folk
+indie electronic	Indietronica
+indieelectrorock	Indietronica
+electro indie	Indietronica, Indie
+electro-indie	Indietronica, Indie
+indie electronica	Indietronica, Indie
+indielectronica	Indietronica, Indie
+indietronic	Indietronica, Indie
+industrial metal	Industrial Metal, Metal, Industrial
+industrial rock	Industrial Rock, Rock, Industrial
+idm	Intelligent Dance Music
+7	James Bond
+japan	Japanese
+j pop	J-pop, Japanese
+japanese pop	J-pop, Japanese
+jpop	J-pop, Japanese
+j-pop	J-pop, Japanese
+j rock	J-rock, Japanese, Rock
+jrock	J-rock, Japanese, Rock
+j-rock	J-rock, Japanese, Rock
+korea	Korean
+k pop	K-pop, Korean
+korean pop	K-pop, Korean
+kpop	K-pop, Korean
+k-pop	K-pop, Korean
+kraut rock	Krautrock, Rock, German
+krautrock	Krautrock, Rock, German
+k rock	K-rock, Korean, Rock
+k-rock	K-rock, Korean, Rock
+latin music	Latin
+latina	Latin
+latino	Latin
+musica latina	Latin
+jazz latin	Latin Jazz, Latin, Jazz
+jazz-latin	Latin Jazz, Latin, Jazz
+latin-jazz	Latin Jazz, Latin, Jazz
+latin rock	Latin Rock, Latin, Rock
+lebanese	Lebanese, Middle Eastern, World
+leeds	Leeds, British
+lo fi	Lo-fi
+lofi	Lo-fi
+london	London, British
+los angeles	Los Angeles, California, West Coast, American
+male	Male Vocalist
+male solo artists	Male Vocalist
+male ss	Male Vocalist
+male vocal	Male Vocalist
+male vocalists	Male Vocalist
+male vocals	Male Vocalist
+mambo	Mambo, Latin
+manchester	Manchester, British
+melbourne	Melbourne, Australian
+heavy metal	Metal
+mexico	Mexican
+arabesque	Middle Eastern, Arabic, World
+arabia	Middle Eastern, Arabic, World
+middle east	Middle Eastern, World
+middle east music	Middle Eastern, World
+middle eastern	Middle Eastern, World
+world - middle eastern	Middle Eastern, World
+minimal	Minimal Techno, Techno
+minnesota	Minnesota, American
+montreal	Montreal, Canadian
+broadway	Musical Theatre
+musical	Musical Theatre
+musical theater	Musical Theatre
+musicals	Musical Theatre
+natal	Christmas
+native american	Native American, World
+neo-soul	Neo Soul
+nu soul	Neo Soul
+nu-soul	Neo Soul
+math pop	Nerd Pop
+geek rock	Nerd Rock, Rock
+math rock	Nerd Rock, Rock
+new jersey	New Jersey, American
+new orleans	New Orleans, American
+newwave	New Wave
+new york	New York, American
+new york city	New York, American
+ny	New York, American
+noise pop	Noise Pop, Noise
+noise rock	Noise Rock, Noise
+nu-jazz	Nu Jazz
+new metal	Nu Metal
+new-metal	Nu Metal
+numetal	Nu Metal
+nu-metal	Nu Metal
+oakland	Oakland, California, West Coast, American
+oklahoma	Oklahoma, American
+philadelphia	Philadelphia, American
+pop - adult	Pop
+pop - classic	Pop
+pop life	Pop
+popular	Pop
+top 40	Pop
+pop punk	Pop Punk, Punk Rock
+pop-punk	Pop Punk, Punk Rock
+poprock	Pop Rock, Rock
+pop-rock	Pop Rock, Rock
+rockpop	Pop Rock, Rock
+pop - chilled	Pop, Chill-out
+portland	Portland, American
+portugal	Portuguese
+post punk	Post-punk
+postpunk	Post-punk
+post rock	Post-rock
+postrock	Post-rock
+powerpop	Power Pop
+progressive house	Progressive House, House
+prog	Progressive Rock, Rock
+prog rock	Progressive Rock, Rock
+progressive	Progressive Rock, Rock
+progressive trance	Progressive Trance, Trance
+proto punk	Protopunk, Punk Rock
+proto-punk	Protopunk, Punk Rock
+psych	Psychedelic
+psychadelic	Psychedelic
+psychadelic love song	Psychedelic
+trippy	Psychedelic
+psychedelic pop	Psychedelic Pop, Psychedelic
+psychadelic rock	Psychedelic Rock, Rock
+goa	Psychedelic Trance, Trance
+goa trance	Psychedelic Trance, Trance
+goa-trance	Psychedelic Trance, Trance
+psy	Psychedelic Trance, Trance
+psy trance	Psychedelic Trance, Trance
+psychill	Psychedelic Trance, Trance
+psytrance	Psychedelic Trance, Trance
+punk	Punk Rock
+punkrock	Punk Rock
+punk-rock	Punk Rock
+gay	Queer
+r and b	R&B
+r n b	R&B
+rb	R&B
+rhythm & blues	R&B
+rhythm and blues	R&B
+rnb	R&B
+r-n-b	R&B
+smooth rb	R&B, Smooth
+raprock	Rap Rock, Rock
+rap-rock	Rap Rock, Rock
+rap core	Rapcore
+rap-core	Rapcore
+relax	Relaxing
+remixed	Remix
+remixes	Remix
+riot girl	Riot Grrrl
+riot grrl	Riot Grrrl
+riot-girl	Riot Grrrl
+riot-grrl	Riot Grrrl
+riot-grrrl	Riot Grrrl
+general rock	Rock
+rock & roll	Rock
+rock and roll	Rock
+rock n roll	Rock
+rock 'n roll	Rock
+rock roll	Rock
+rock'n'roll	Rock
+rock-n-roll	Rock
+love song	Romantic
+love songs	Romantic
+heartbreaking	Sad
+melancholic	Sad
+melancholy	Sad
+salsa	Salsa, Latin
+san francisco	San Francisco, California, West Coast, American
+scotland	Scottish
+seattle	Seattle, American
+sultry	Sensual, Sexy
+sultry	Sexy
+sheffield	Sheffield, British
+shoe gazer	Shoegaze
+shoegaze-inspired	Shoegaze
+shoegazer	Shoegaze
+shoegazing	Shoegaze
+shoegazzer	Shoegaze
+singer songwriter	Singer-songwriter
+singer songwriters	Singer-songwriter
+singer-song writers	Singer-songwriter
+singer-songwriters	Singer-songwriter
+songwriter	Singer-songwriter
+ska-jazz	Ska Jazz
+ska-jazz	Ska Jazz, Jazz, Ska
+ska-punk	Ska Punk
+original soundtrack	Soundtrack
+soundtracks	Soundtrack
+ost	Sountrack
+sc	South Carolina, American
+espaol	Spanish
+spanish pop	Spanish, Spanish Pop
+spanish rock	Spanish, Spanish Rock
+stoner rock	Stoner Rock, Rock
+surf	Surf Music
+surf rock	Surf Music
+surf-rock	Surf Music
+sweden	Swedish
+synth pop	Synthpop
+synth-pop	Synthpop
+tango	Tango, Latin
+tech	Techno
+tech-house	Techno, House
+texas	Texas, American
+thrash metal	Thrash Metal, Metal
+triphop	Trip Hop
+trip-hop	Trip Hop
+trumpet	Trumpet, Horns
+twee pop	Twee
+tweepop	Twee
+vocal	Vocals
+vocalization	Vocals
+washington	Washington, American
+wales	Welsh
+west coast	West Coast, American
+westcoast	West Coast, American
+world fusion	World Fusion, World
+ethnic	World
+world music	World
+
+
+
+
+# Bunky tags
+# There are just too many bad tags to make this terribly feasible, but feel free to add
+# any that jump out at you. 
+<3	-NONE-
+1	-NONE-
+131	-NONE-
+2 stars	-NONE-
+2k8 mix	-NONE-
+2k9 mix	-NONE-
+3 stars	-NONE-
+4 stars	-NONE-
+5 stars	-NONE-
+5432fun	-NONE-
+aitch	-NONE-
+aitchinternational	-NONE-
+aitchsonic	-NONE-
+alberto	-NONE-
+albums i own	-NONE-
+all time faves	-NONE-
+amazing	-NONE-
+arts and crafts	-NONE-
+awesome	-NONE-
+bands i have seen live	-NONE-
+barock94 selection	-NONE-
+bathtub	-NONE-
+beatles	-NONE-
+beautiful	-NONE-
+beauty	-NONE-
+best	-NONE-
+best of 2009	-NONE-
+best of the cure	-NONE-
+best song ever	-NONE-
+bestof2009	-NONE-
+birds	-NONE-
+bjork	-NONE-
+bl00d7 m4r7	-NONE-
+black	-NONE-
+blink 182	-NONE-
+blue light rain	-NONE-
+brilliant	-NONE-
+broken social scene	-NONE-
+buddha bar	-NONE-
+bujamsie	-NONE-
+catchy	-NONE-
+check	-NONE-
+check em out	-NONE-
+check out	-NONE-
+cheese on toast	-NONE-
+childhood	-NONE-
+classic	-NONE-
+close ur eyes and let ur head fall back	-NONE-
+coffee break	-NONE-
+contraction songs	-NONE-
+cool	-NONE-
+cool for cats	-NONE-
+crap	-NONE-
+cure	-NONE-
+cute	-NONE-
+czhit	-NONE-
+damn	-NONE-
+damned good	-NONE-
+disappear here	-NONE-
+discoverockult	-NONE-
+double-ender 4	-NONE-
+dresden dolls	-NONE-
+duyster	-NONE-
+eargasmic	-NONE-
+emotional	-NONE-
+english	-NONE-
+epic	-NONE-
+essentials	-NONE-
+ewf	-NONE-
+fall 2006	-NONE-
+fantastic	-NONE-
+fav	-NONE-
+fave indie pop	-NONE-
+favorite	-NONE-
+favorite artists	-NONE-
+favorite bands	-NONE-
+favorite by this group	-NONE-
+favorite songs	-NONE-
+favorite stereolab tracks	-NONE-
+favoriter	-NONE-
+favorites	-NONE-
+favourite	-NONE-
+favourite bands	-NONE-
+favourite songs	-NONE-
+favouritefunk	-NONE-
+favourites	-NONE-
+feel good	-NONE-
+feelgood	-NONE-
+first person songs	-NONE-
+food	-NONE-
+freshman year	-NONE-
+friday	-NONE-
+fu	-NONE-
+fucking awesome	-NONE-
+full track	-NONE-
+funkpoparoll	-NONE-
+good	-NONE-
+good song	-NONE-
+good stuff	-NONE-
+goosebumps	-NONE-
+great	-NONE-
+great lyrics	-NONE-
+groovesalad	-NONE-
+guateque	-NONE-
+hand claps	-NONE-
+handclaps	-NONE-
+high school	-NONE-
+high school memories	-NONE-
+hot	-NONE-
+hotandnew	-NONE-
+i like	-NONE-
+i like this	-NONE-
+i love	-NONE-
+i rock i roll	-NONE-
+if i were to kill myself this would play	-NONE-
+india arie	-NONE-
+indie09	-NONE-
+influential	-NONE-
+ingersmix	-NONE-
+interesting	-NONE-
+just amazing	-NONE-
+leapsandloved	-NONE-
+loobieloos loved tracks	-NONE-
+lost highway	-NONE-
+love	-NONE-
+love at first listen	-NONE-
+love it	-NONE-
+love love love	-NONE-
+loved	-NONE-
+loved track	-NONE-
+loved tracks	-NONE-
+lovely	-NONE-
+lyrics	-NONE-
+magnetic fields	-NONE-
+makes me extra happy	-NONE-
+makes me faint	-NONE-
+makes me smile	-NONE-
+makes me wanna dance	-NONE-
+maybe	-NONE-
+memories	-NONE-
+misc	-NONE-
+modus	-NONE-
+morning	-NONE-
+murder	-NONE-
+muse	-NONE-
+music	-NONE-
+music i fuck to	-NONE-
+my diary	-NONE-
+my favourite artists	-NONE-
+my favs	-NONE-
+my gang	-NONE-
+my gang 09	-NONE-
+my little ghost friend	-NONE-
+my pop music	-NONE-
+myspace recommendations	-NONE-
+names	-NONE-
+neubauten	-NONE-
+new	-NONE-
+newflow	-NONE-
+nice	-NONE-
+nix partly	-NONE-
+nostalgia	-NONE-
+nothing	-NONE-
+novelty	-NONE-
+nowa fala	-NONE-
+number songs	-NONE-
+numbers	-NONE-
+nye favoritter	-NONE-
+o brother where art thou	-NONE-
+oh its a lady	-NONE-
+one star	-NONE-
+one-word titles	-NONE-
+other	-NONE-
+pearls in stereo	-NONE-
+perfect	-NONE-
+pretty	-NONE-
+psychoalgie	-NONE-
+queen of the damned	-NONE-
+radio	-NONE-
+radiohead	-NONE-
+random	-NONE-
+rockin	-NONE-
+schoolhouse rock	-NONE-
+seen in concert	-NONE-
+seen live	-NONE-
+seen live at concert	-NONE-
+seenlive	-NONE-
+sex	-NONE-
+short	-NONE-
+short songs	-NONE-
+sinead oconnor	-NONE-
+sing-a-long	-NONE-
+siouxsie and the banshees	-NONE-
+snow	-NONE-
+songs i absolutely love	-NONE-
+songs that make me happy	-NONE-
+songs with names	-NONE-
+streamable track wants	-NONE-
+summer 08	-NONE-
+sweet	-NONE-
+swingers	-NONE-
+sxsw	-NONE-
+sxsw 2006	-NONE-
+sxsw 2009	-NONE-
+sxsw 2008	-NONE-
+sxsw2008	-NONE-
+test	-NONE-
+the garden	-NONE-
+the lords of acid	-NONE-
+the word one	-NONE-
+tie-die	-NONE-
+timodieerste	-NONE-
+title is a full sentence	-NONE-
+top rated tracks	-NONE-
+tracks i can relate to	-NONE-
+train home-christmas	-NONE-
+trainspotting	-NONE-
+travel	-NONE-
+under a minute	-NONE-
+under two minutes	-NONE-
+underrated	-NONE-
+wall bumpin love dolls	-NONE-
+whiskey	-NONE-
+whos got the clap	-NONE-
+wonderful	-NONE-
+work	-NONE-
+zero7	-NONE-

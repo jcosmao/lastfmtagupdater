@@ -1,0 +1,17 @@
+# This is the artist skip list file. Any artist listed here will not have 
+# their tags fetched from Last.FM. This will apply to all albums and tracks 
+# associated with the artist. Depending upon the existing tags and 
+# configuration state, the 'Untagged Artist' tag may get written back to 
+# the file.
+#
+# Expected format: one artist per line, with embedded punctuation and spacing
+# being significant. Case is relevant, depending upon the configuration state. 
+
+Various Artists
+V.A.
+V. A.
+soundtrack
+soundtracks
+compilation
+ost
+original soundtrack
