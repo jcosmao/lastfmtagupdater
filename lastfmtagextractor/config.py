@@ -73,7 +73,7 @@ Usage:
         artistSkipListFile='',
         capTagWords='true',
         skipExtensions='jpg, ini, m3u,db, nfo',
-        writeUntaggedTag='artist',
+        writeUntaggedTag='no',
         artistField='both',
         artistTagFields='comment',
         trackTagFields='comment',
@@ -187,7 +187,7 @@ Usage:
             if (config.get(self.config_section, 'artistField').lower() not in ['artist', 'albumartist', 'both']):                                     
                 raise Exception('An invalid artistField value was specified: ' + config.get(self.config_section, 'artistField'))
 
-            if (config.get(self.config_section, 'writeUntaggedTag').lower() not in ['artist', 'track', 'both']):                                     
+            if (config.get(self.config_section, 'writeUntaggedTag').lower() not in ['artist', 'track', 'both', 'no']):                                     
                 raise Exception('An invalid writeUntaggedTag value was specified: ' + config.get(self.config_section, 'writeUntaggedTag'))
             
             return config
