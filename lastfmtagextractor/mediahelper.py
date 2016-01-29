@@ -192,8 +192,11 @@ class MediaHelper:
             retryCount = 0
             while True:
                 try:
-                    mediawrapper.update_to_v23()
-                    mediawrapper.save(v2_version=3)
+                    if (isinstance(mediawrapper, ID3)):
+                        mediawrapper.update_to_v23()
+                        mediawrapper.save(v2_version=3)
+                    else:
+                        mediawrapper.save()                        
                     break                    
                 except Exception, err:
                     retryCount += 1
