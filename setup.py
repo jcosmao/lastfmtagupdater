@@ -20,7 +20,7 @@ def main():
               'Topic :: Multimedia :: Sound/Audio',
               'Operating System :: OS Independent'
           ],
-          keywords='flickr backup photo sync',
+          keywords='lastfm music tag update',
           author='Brent Huisman',
           author_email='mail@brenthuisman.net',
           url='https://github.com/brenthuisman/lastfmtagupdater',

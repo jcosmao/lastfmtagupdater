@@ -27,10 +27,10 @@ The default configuration file is [lastfm_tagger.conf]. Assuming that the config
 
 ### Changelog
 
-2016-03-21: Renamed to lastfmtagupdater, bumped version number to v3. Finish port to Python 3, added setup.py. Cleaned up code, removed Gui.
-2016-01-28: Update writing mp4.
-2014-11-30: Fix: correctly ignore writeUntaggedTag. Change: write ID3v2.3 tags instead of ID3v2.4.
-2014-11-30: Import of r17 lastfmtagextractor SVN repo @ http://code.google.com/p/lastfmtagextractor
+ * 2016-03-21: Renamed to lastfmtagupdater, bumped version number to v3. Finish port to Python 3, added setup.py. Cleaned up code, removed Gui.
+ * 2016-01-28: Update writing mp4.
+ * 2014-11-30: Fix: correctly ignore writeUntaggedTag. Change: write ID3v2.3 tags instead of ID3v2.4.
+ * 2014-11-30: Import of r17 lastfmtagextractor SVN repo @ http://code.google.com/p/lastfmtagextractor
 
 ~ Aaron McKee, May 2012
 ~ Brent Huisman, March 2016
