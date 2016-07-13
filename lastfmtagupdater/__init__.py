@@ -1,7 +1,7 @@
-import os.path,sys,common
-from config import LastFM_Config
-from medialibrary import MediaLibrary
-from outputwrapper import OutputWrapper
+import os.path,sys
+from .config import LastFM_Config
+from .medialibrary import MediaLibrary
+from .outputwrapper import OutputWrapper
 
 def main(argv=None):
     config = LastFM_Config(argv)

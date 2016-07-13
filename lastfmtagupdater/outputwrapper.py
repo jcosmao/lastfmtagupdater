@@ -1,5 +1,5 @@
-from config import LastFM_Config
 import codecs,sys
+from .config import LastFM_Config
 
 '''
 This helper class facilitates output to either the console or a GUI. If GUI mode is selected, the window will open
@@ -32,9 +32,9 @@ class OutputWrapper():
         if (isinstance(msg, str)):
             pass#msg = msg.encode('latin1', 'replace')
         try:
-            print(msg, file=consoleStream)
+            print(msg)#, file=consoleStream)
         except:
-            print(file=consoleStream)
+            print(file)#=consoleStream)
             pass
         consoleStream.flush()
 

@@ -1,4 +1,5 @@
-import getopt,os.path,sys,configparser,common
+import getopt,os.path,sys,configparser
+from . import common
 
 class LastFM_Config:
     config_section = 'lastfm_tagger'

@@ -1,8 +1,9 @@
-import os,time,common,mutagen
+import os,time,mutagen
 from mutagen.flac import FLAC
 from mutagen.id3 import ID3, TIT1, COMM, TCON, TPE1, TPE2, TIT2, TALB
 from mutagen.mp4 import MP4
 from mutagen.oggvorbis import OggVorbis
+from . import common
 
 class MediaHelper:
     config = None

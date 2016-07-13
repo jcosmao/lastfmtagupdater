@@ -1,4 +1,4 @@
-import sys,pylast,common,time
+import sys,pylast,time
 
 # Fetch tags from LastFM and convert them into a list of (tag, weight) pairs
 class LastFM_Wrapper:

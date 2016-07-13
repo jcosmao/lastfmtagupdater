@@ -1,7 +1,8 @@
-from lastfmwrapper import LastFM_Wrapper
-from mediahelper import MediaHelper
+import fileinput,os,string,time,sys
 from xml.etree.ElementTree import Element, SubElement, ElementTree
-import common,fileinput,os,string,time,sys
+from . import common
+from .lastfmwrapper import LastFM_Wrapper
+from .mediahelper import MediaHelper
 
 class MediaLibrary:
     # Media Library object:
