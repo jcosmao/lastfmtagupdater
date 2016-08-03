@@ -203,7 +203,6 @@ class MediaLibrary:
                     self.outputWrapper.logError('Missing name element on [' + artistElement.tag + ']')
                     continue
                 artist = str(nameElement.text.lower().encode("utf-8")  if ignoreCase else nameElement.text)
-                print(artist)
 
                 # tags = None means there is no tag info, tags = [] means we know it's an empty list
                 artistTags = None
@@ -221,7 +220,6 @@ class MediaLibrary:
                         self.outputWrapper.logError('Missing name element on [' + albumElement.tag + ']')
                         continue
                     album = str(nameElement.text.lower().encode("utf-8") if ignoreCase else nameElement.text)
-                    print("\t" + album)
 
                     for trackElement in albumElement.findall('track'):
                         nameElement = trackElement.find('name')
@@ -229,7 +227,6 @@ class MediaLibrary:
                             self.outputWrapper.logError('Missing name element on [' + trackElement.tag + ']')
                             continue
                         track = str(nameElement.text.lower().encode("utf-8")  if ignoreCase else nameElement.text)
-                        print("\t\t" + track)
 
                         # tags = None means there is no tag info, tags = [] means we know it's an empty list
                         trackTags = None
