@@ -10,11 +10,12 @@ documentation for an explanation of the various operating parameters. You very l
 the defaults.
 
 Usage:
-    --cfg=file   the configuration file to use (default: lastfm_tagger.conf)
-    --delcache   delete an existing cache file, if it exists
-    --skipscan   do not scan the media directory (use only those values already in the cache file)
-    --skipfetch  do not fetch tags from LastFM (use only those values already in the cache file)
-    --skipupdate do not update the media files (useful if you want to audit the cache file first)
+    --cfg=file     the configuration file to use (default: lastfm_tagger.conf)
+    --dir=mediadir set directory to work on ( override config file )
+    --delcache     delete an existing cache file, if it exists
+    --skipscan     do not scan the media directory (use only those values already in the cache file)
+    --skipfetch    do not fetch tags from LastFM (use only those values already in the cache file)
+    --skipupdate   do not update the media files (useful if you want to audit the cache file first)
 '''
 
 
@@ -83,6 +84,7 @@ Usage:
                  'delcache',
                  'skipscan',
                  'skipfetch',
+                 'dir=',
                  'skipupdate'])
 
             for option, value in opts:
@@ -92,6 +94,10 @@ Usage:
                 if (option in ('--cfg')):
                     self.defaults['cfg'] = value
                     print('Using config file [' + value + ']')
+
+                if (option in ('--dir')):
+                    self.defaults['mediadir'] = value
+                    print('Music dir [' + value + ']')
 
                 if (option == '--delcache'):
                     self.defaults['delcache'] = 'true'
@@ -124,7 +130,12 @@ Usage:
             config.set(self.config_section, 'tagEndDelim', self.decode_string(config.get(self.config_section, 'tagEndDelim')))
 
             # Sanity check various settings
-            mediadir = config.get(self.config_section, 'mediaDir')
+            mediadir = self.defaults['mediadir']
+            if ( mediadir ):
+                config.set(self.config_section, 'mediaDir', mediadir )
+            else:
+                mediadir = config.get(self.config_section, 'mediaDir')
+
             if (not os.path.exists(mediadir) or not os.path.isdir(mediadir) or not os.access(mediadir, os.R_OK)):
                 raise IOError('Directory does not exist or you do not have access: ' + mediadir)
 
